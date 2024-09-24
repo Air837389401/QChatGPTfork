@@ -30,7 +30,7 @@ class OpenAIChatCompletions(api.LLMAPIRequester):
     def __init__(self, ap: app.Application):
         self.ap = ap
 
-        self.requester_cfg = self.ap.provider_cfg.data['requester']['openai-chat-completions']
+        self.requester_cfg = self.ap.provider_cfg.data['requester']['openai-chat_gptapius-completions']
 
     async def initialize(self):
 
