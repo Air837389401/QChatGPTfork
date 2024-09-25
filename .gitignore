@@ -1,4 +1,4 @@
-/config.py
+# /config.py
 .idea/
 __pycache__/
 database.db
@@ -33,5 +33,5 @@ bard.json
 !/docker-compose.yaml
 res/instance_id.json
 .DS_Store
-/data
+# /data
 botpy.log*
