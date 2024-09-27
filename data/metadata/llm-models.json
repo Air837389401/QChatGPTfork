@@ -185,7 +185,113 @@
             "model_name": "gpt-4o-mini",
             "name": "#us#gpt-4o-mini",
             "tool_call_supported": true,
-            "vision_supported": true
+            "vision_supported": false,
+            "requester": "openai-chat_gptapius-completions",
+            "token_mgr": "openai_apius"
+        },
+        {
+            "model_name": "gpt-3.5-turbo-0125",
+            "name": "#4o#gpt-3.5-turbo-0125",
+            "tool_call_supported": true,
+            "vision_supported": false,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
+            "model_name": "gpt-3.5-turbo",
+            "name": "#4o#gpt-3.5-turbo",
+            "tool_call_supported": true,
+            "vision_supported": false,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
+            "model_name": "gpt-3.5-turbo-1106",
+            "name": "#4o#gpt-3.5-turbo-1106",
+            "tool_call_supported": true,
+            "vision_supported": false,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
+            "model_name": "gpt-4-turbo",
+            "name": "#4o#gpt-4-turbo",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
+            "model_name": "gpt-4-turbo-2024-04-09",
+            "name": "#4o#gpt-4-turbo-2024-04-09",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
+            "model_name": "gpt-4-turbo-preview",
+            "name": "#4o#gpt-4-turbo-preview",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
+            "model_name": "gpt-4-0125-preview",
+            "name": "#4o#gpt-4-0125-preview",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
+            "model_name": "gpt-4-1106-preview",
+            "name": "#4o#gpt-4-1106-preview",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
+            "model_name": "gpt-4",
+            "name": "#4o#gpt-4",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
+            "model_name": "gpt-4o",
+            "name": "#4o#gpt-4o",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
+            "model_name": "gpt-4-0613",
+            "name": "#4o#gpt-4-0613",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
+            "model_name": "gpt-4-32k",
+            "name": "#4o#gpt-4-32k",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
+            "model_name": "gpt-4o-mini",
+            "name": "#4o#gpt-4o-mini",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
         },
         {
             "model_name": "SparkDesk",

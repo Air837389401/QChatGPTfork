@@ -9,6 +9,9 @@
             "sk-p6OgmjCHVsc60zLjE3F7F29e9aFb4cBaBdF314F023347eDe",
             "sk-Z3RmDaWsDDMaLJsK7eE74dD044De48F383FbBc61C10b766d"
         ],
+        "openai_api4o": [
+            "sk-KHyh7of3RT6Dn0Ub2cDa181114394b719d5f1109C4903e40",
+        ],
         "anthropic": [
             "sk-1234567890"
         ],
@@ -27,6 +30,11 @@
         },
         "openai-chat_gptapius-completions": {
             "base-url": "https://api.gptapi.us/v1/chat/completions",
+            "args": {},
+            "timeout": 120
+        },
+        "openai-chat_gptapi4o-completions": {
+            "base-url": "https://api.gpt4oapi.com",
             "args": {},
             "timeout": 120
         },
