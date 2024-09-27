@@ -3,17 +3,17 @@
     "enable-vision": true,
     "keys": {
         "openai": [
-            "sk-p6OgmjCHVsc60zLjE3F7F29e9aFb4cBaBdF314F023347eDe",
-            "sk-Z3RmDaWsDDMaLJsK7eE74dD044De48F383FbBc61C10b766d"
+            "sk-GP3T9jVnheofk2EXF4pvgH9lswK4fa4DKXReLwdq6MRdvrTT"
         ],
         "openai_apius": [
-            "sk-GP3T9jVnheofk2EXF4pvgH9lswK4fa4DKXReLwdq6MRdvrTT"
+            "sk-p6OgmjCHVsc60zLjE3F7F29e9aFb4cBaBdF314F023347eDe",
+            "sk-Z3RmDaWsDDMaLJsK7eE74dD044De48F383FbBc61C10b766d"
         ],
         "anthropic": [
             "sk-1234567890"
         ],
         "moonshot": [
-            "sk-1234567890"
+            "sk-t7xNe2fQamJKnOg29cz803tuECcX5TYU2gu2oOjD3tgJw2D4"
         ],
         "deepseek": [
             "sk-1234567890"
@@ -21,12 +21,12 @@
     },
     "requester": {
         "openai-chat-completions": {
-            "base-url": "https://api.gptapi.us/v1/chat/completions",
+            "base-url": "https://api.chatanywhere.tech/v1",
             "args": {},
             "timeout": 120
         },
         "openai-chat_gptapius-completions": {
-            "base-url": "https://api.chatanywhere.tech/v1",
+            "base-url": "https://api.gptapi.us/v1/chat/completions",
             "args": {},
             "timeout": 120
         },
@@ -53,7 +53,7 @@
             "timeout": 600
         }
     },
-    "model": "usgpt-4o",
+    "model": "gpt-4o-mini",
     "prompt-mode": "normal",
     "prompt": {
         "default": ""
