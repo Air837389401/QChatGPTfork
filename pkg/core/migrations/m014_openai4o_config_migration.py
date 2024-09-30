@@ -4,7 +4,6 @@ from .. import migration
 
 
 @migration.migration_class("openai-config4o-migration", 2)
-
 class OpenAIConfigMigration(migration.Migration):
     """OpenAI配置迁移
     """

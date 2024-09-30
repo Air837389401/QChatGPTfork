@@ -3,14 +3,14 @@
     "enable-vision": true,
     "keys": {
         "openai": [
-            "sk-GP3T9jVnheofk2EXF4pvgH9lswK4fa4DKXReLwdq6MRdvrTT"
+            "sk-uDQIStt4PXfxyPBD52C9105684F345Ca98C3F57020Fd51C5"
         ],
         "openai_apius": [
             "sk-p6OgmjCHVsc60zLjE3F7F29e9aFb4cBaBdF314F023347eDe",
             "sk-Z3RmDaWsDDMaLJsK7eE74dD044De48F383FbBc61C10b766d"
         ],
         "openai_api4o": [
-            "sk-KHyh7of3RT6Dn0Ub2cDa181114394b719d5f1109C4903e40"
+            "sk-XynVMpMIs0boAfaKAc266dBe50Fc49F79b71D7Ff8bC4326b"
         ],
         "anthropic": [
             "sk-1234567890"
@@ -24,7 +24,7 @@
     },
     "requester": {
         "openai-chat-completions": {
-            "base-url": "https://api.chatanywhere.tech/v1",
+            "base-url": "https://api.geek-it.asia/",
             "args": {},
             "timeout": 120
         },
@@ -34,7 +34,7 @@
             "timeout": 120
         },
         "openai-chat_gptapi4o-completions": {
-            "base-url": "https://api.gpt4oapi.com",
+            "base-url": "https://freeai.fly.dev/",
             "args": {},
             "timeout": 120
         },
@@ -61,7 +61,7 @@
             "timeout": 600
         }
     },
-    "model": "gpt-4o-mini",
+    "model": "#us#gpt-4o-mini",
     "prompt-mode": "normal",
     "prompt": {
         "default": ""
