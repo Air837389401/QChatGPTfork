@@ -111,9 +111,9 @@ class ResponseWrapper(stage.PipelineStage):
                         
                         function_names = [tc.function.name for tc in result.tool_calls]
 
-                        # reply_text = f'调用函数 {".".join(function_names)}...'
+                        reply_text = f'调用函数 {".".join(function_names)}...'
 
-                        # query.resp_message_chain.append(mirai.MessageChain([mirai.Plain(reply_text)]))
+                        query.resp_message_chain.append(mirai.MessageChain([mirai.Plain(reply_text)]))
 
                         if self.ap.platform_cfg.data['track-function-calls']:
                             

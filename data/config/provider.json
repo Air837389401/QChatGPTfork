@@ -34,7 +34,7 @@
             "timeout": 120
         },
         "openai-chat_gptapi4o-completions": {
-            "base-url": "https://freeai.fly.dev/",
+            "base-url": "https://freeai.fly.dev/v1/chat/completions",
             "args": {},
             "timeout": 120
         },
@@ -61,7 +61,7 @@
             "timeout": 600
         }
     },
-    "model": "#us#gpt-4o-mini",
+    "model": "gpt-4o",
     "prompt-mode": "normal",
     "prompt": {
         "default": ""
