@@ -54,6 +54,9 @@ class OpenAIChatCompletions(api.LLMAPIRequester):
         chat_completion: chat_completion.ChatCompletion,
     ) -> llm_entities.Message:
         chatcmpl_message = chat_completion.choices[0].message.dict()
+        
+        # 使用 self.ap.logger.info 打印 API 返回的内容
+        self.ap.logger.debug("API 返回的内容: %s", chat_completion)
 
         message = llm_entities.Message(**chatcmpl_message)
 
@@ -87,6 +90,11 @@ class OpenAIChatCompletions(api.LLMAPIRequester):
                         me["image_url"]['url'] = await self.get_base64_str(me["image_url"]['url'])
 
         args["messages"] = messages
+        
+        # 打印完整的请求信息，包括 base-url 等参数
+        self.ap.logger.debug("请求的 api_key: %s",  self.client.api_key)
+        self.ap.logger.debug("请求的 base-url: %s", self.client.base_url)
+        self.ap.logger.debug("请求参数: %s", args)
 
         # 发送请求
         resp = await self._req(args)
