@@ -7,6 +7,7 @@ from .. import migration
 from ..migrations import m001_sensitive_word_migration, m002_openai_config_migration, m003_anthropic_requester_cfg_completion, m004_moonshot_cfg_completion
 from ..migrations import m005_deepseek_cfg_completion, m006_vision_config, m007_qcg_center_url, m008_ad_fixwin_config_migrate, m009_msg_truncator_cfg
 from ..migrations import m010_ollama_requester_config, m011_command_prefix_config, m012_runner_config, m013_openaius_config_migration,m014_openai4o_config_migration
+from ..migrations import m015_openaiV1_config_migration, m016_openaiV2_config_migration
 
 
 @stage.stage_class("MigrationStage")

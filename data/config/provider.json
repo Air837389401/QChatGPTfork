@@ -11,6 +11,12 @@
         "openai_api4o": [
             "sk-XynVMpMIs0boAfaKAc266dBe50Fc49F79b71D7Ff8bC4326b"
         ],
+        "openai_apiV1": [
+            "sk-KqjuUSGbSKdhmkpR32E06bE0B8C043A6A68d1eD7Ce878382"
+        ],
+        "openai_apiV2": [
+            "sk-KqjuUSGbSKdhmkpR32E06bE0B8C043A6A68d1eD7Ce878382"
+        ],
         "anthropic": [
             "sk-1234567890"
         ],
@@ -37,6 +43,16 @@
             "args": {},
             "timeout": 120
         },
+        "openai-chat_gptapiV1-completions": {
+            "base-url": "https://oneai.evanora.top/v1",
+            "args": {},
+            "timeout": 120
+        },
+        "openai-chat_gptapiV2-completions": {
+            "base-url": "https://oneai.evanora.top/v1",
+            "args": {},
+            "timeout": 120
+        },
         "anthropic-messages": {
             "base-url": "https://api.anthropic.com",
             "args": {
@@ -60,7 +76,7 @@
             "timeout": 600
         }
     },
-    "model": "gpt-4o",
+    "model": "#V1#gpt-4o",
     "prompt-mode": "normal",
     "prompt": {
         "default": ""

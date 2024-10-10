@@ -302,6 +302,230 @@
             "token_mgr": "openai_api4o"
         },
         {
+            "model_name": "gpt-3.5-turbo-0125",
+            "name": "#V1#gpt-3.5-turbo-0125",
+            "tool_call_supported": true,
+            "vision_supported": false,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-3.5-turbo",
+            "name": "#V1#gpt-3.5-turbo",
+            "tool_call_supported": true,
+            "vision_supported": false,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-3.5-turbo-1106",
+            "name": "#V1#gpt-3.5-turbo-1106",
+            "tool_call_supported": true,
+            "vision_supported": false,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-4-turbo",
+            "name": "#V1#gpt-4-turbo",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-4-turbo-2024-04-09",
+            "name": "#V1#gpt-4-turbo-2024-04-09",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-4-turbo-preview",
+            "name": "#V1#gpt-4-turbo-preview",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-4-0125-preview",
+            "name": "#V1#gpt-4-0125-preview",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-4-1106-preview",
+            "name": "#V1#gpt-4-1106-preview",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-4",
+            "name": "#V1#gpt-4",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-4o",
+            "name": "#V1#gpt-4o",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-4-0613",
+            "name": "#V1#gpt-4-0613",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-4-32k",
+            "name": "#V1#gpt-4-32k",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-4o-mini",
+            "name": "#V1#gpt-4o-mini",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-4o-2024-08-06",
+            "name": "#V1#gpt-4o-2024-08-06",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV1-completions",
+            "token_mgr": "openai_apiV1"
+        },
+        {
+            "model_name": "gpt-3.5-turbo-0125",
+            "name": "#V2#gpt-3.5-turbo-0125",
+            "tool_call_supported": true,
+            "vision_supported": false,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-3.5-turbo",
+            "name": "#V2#gpt-3.5-turbo",
+            "tool_call_supported": true,
+            "vision_supported": false,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-3.5-turbo-1106",
+            "name": "#V2#gpt-3.5-turbo-1106",
+            "tool_call_supported": true,
+            "vision_supported": false,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-4-turbo",
+            "name": "#V2#gpt-4-turbo",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-4-turbo-2024-04-09",
+            "name": "#V2#gpt-4-turbo-2024-04-09",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-4-turbo-preview",
+            "name": "#V2#gpt-4-turbo-preview",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-4-0125-preview",
+            "name": "#V2#gpt-4-0125-preview",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-4-1106-preview",
+            "name": "#V2#gpt-4-1106-preview",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-4",
+            "name": "#V2#gpt-4",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-4o",
+            "name": "#V2#gpt-4o",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-4-0613",
+            "name": "#V2#gpt-4-0613",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-4-32k",
+            "name": "#V2#gpt-4-32k",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-4o-mini",
+            "name": "#V2#gpt-4o-mini",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
+            "model_name": "gpt-4o-2024-08-06",
+            "name": "#V2#gpt-4o-2024-08-06",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapiV2-completions",
+            "token_mgr": "openai_apiV2"
+        },
+        {
             "model_name": "SparkDesk",
             "name": "OneAPI/SparkDesk"
         },
