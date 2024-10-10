@@ -3,7 +3,7 @@
     "enable-vision": true,
     "keys": {
         "openai": [
-            "sk-GP3T9jVnheofk2EXF4pvgH9lswK4fa4DKXReLwdq6MRdvrTT"
+            "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJzZXNzaW9uX2lkIjoiSzBOZWlka3dId2lvWXBXRjdLTDRmdElnZG5EaEthMTQiLCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJhaXI4MzczODk0MDFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL2F1dGgiOnsicG9pZCI6Im9yZy1yYWR0UktVV1RGeTJTbTV6ejBhNWVWV3IiLCJ1c2VyX2lkIjoidXNlci1Tc3pWMElJSEtLRkhTWDhKckx5dDdKR0cifSwiaXNzIjoiaHR0cHM6Ly9hdXRoMC5vcGVuYWkuY29tLyIsInN1YiI6Imdvb2dsZS1vYXV0aDJ8MTA5MTc3NjI2MjQwODU1NDk4NzE5IiwiYXVkIjpbImh0dHBzOi8vYXBpLm9wZW5haS5jb20vdjEiLCJodHRwczovL29wZW5haS5vcGVuYWkuYXV0aDBhcHAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTcyODQ2OTc1MCwiZXhwIjoxNzI5MzMzNzUwLCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIG1vZGVsLnJlYWQgbW9kZWwucmVxdWVzdCBvcmdhbml6YXRpb24ucmVhZCBvcmdhbml6YXRpb24ud3JpdGUgb2ZmbGluZV9hY2Nlc3MiLCJhenAiOiJUZEpJY2JlMTZXb1RIdE45NW55eXdoNUU0eU9vNkl0RyJ9.D_Iwzz9hiZOAzLnk58u9EAgHwl-1ySNGcDN4vFMhNye0IGiI9f6MdGyyRDSfwJfCgKvoq-Png5sbh7ifS8TUyCdrGj3YxahmgmsVkbCXWJsgN3BQmxY4akRbnzX_O5qqLOVGjPjBFfRBCp8uUM8gz0RGxLdi7leXUhmSl0q8VFbRvO45Ky-lGvZDzyV_eqNvZ4LTUfhGBozuG5Z7A5i4n8QLoLDO4lQXgIcBiK19nU_AffkBvNmTggagOhhyAZk4zyEkq5cF080uA3wZzRroPdiAQWmCj3GVqM8xYVNtkwB8i8wxb8811c_zyCs8p5el3ldOLLfJKXXcDAJR_zfzfQ"
         ],
         "openai_apius": [
             "sk-Z3RmDaWsDDMaLJsK7eE74dD044De48F383FbBc61C10b766d"
@@ -23,7 +23,7 @@
     },
     "requester": {
         "openai-chat-completions": {
-            "base-url": "https://api.chatanywhere.tech/v1",
+            "base-url": "https://api.oaifree.com/v1/chat/completions",
             "args": {},
             "timeout": 120
         },
@@ -60,7 +60,7 @@
             "timeout": 600
         }
     },
-    "model": "#4o#gpt-4o",
+    "model": "gpt-4o",
     "prompt-mode": "normal",
     "prompt": {
         "default": ""
