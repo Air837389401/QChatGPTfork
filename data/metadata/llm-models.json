@@ -294,6 +294,14 @@
             "token_mgr": "openai_api4o"
         },
         {
+            "model_name": "gpt-4o-2024-08-06",
+            "name": "#4o#gpt-4o-2024-08-06",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapi4o-completions",
+            "token_mgr": "openai_api4o"
+        },
+        {
             "model_name": "SparkDesk",
             "name": "OneAPI/SparkDesk"
         },
