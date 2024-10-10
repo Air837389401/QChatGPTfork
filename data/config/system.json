@@ -10,7 +10,7 @@
         "https": null
     },
     "report-usage": true,
-    "logging-level": "info",
+    "logging-level": "debug",
     "session-concurrency": {
         "default": 1
     },

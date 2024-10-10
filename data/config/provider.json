@@ -3,14 +3,13 @@
     "enable-vision": true,
     "keys": {
         "openai": [
-            "sk-uDQIStt4PXfxyPBD52C9105684F345Ca98C3F57020Fd51C5"
+            "sk-GP3T9jVnheofk2EXF4pvgH9lswK4fa4DKXReLwdq6MRdvrTT"
         ],
         "openai_apius": [
-            "sk-XynVMpMIs0boAfaKAc266dBe50Fc49F79b71D7Ff8bC4326b"
+            "sk-Z3RmDaWsDDMaLJsK7eE74dD044De48F383FbBc61C10b766d"
         ],
         "openai_api4o": [
-            "sk-p6OgmjCHVsc60zLjE3F7F29e9aFb4cBaBdF314F023347eDe",
-            "sk-Z3RmDaWsDDMaLJsK7eE74dD044De48F383FbBc61C10b766d"
+            "sk-XynVMpMIs0boAfaKAc266dBe50Fc49F79b71D7Ff8bC4326b"
         ],
         "anthropic": [
             "sk-1234567890"
@@ -24,17 +23,17 @@
     },
     "requester": {
         "openai-chat-completions": {
-            "base-url": "https://api.geek-it.asia/v1",
+            "base-url": "https://api.chatanywhere.tech/v1",
             "args": {},
             "timeout": 120
         },
         "openai-chat_gptapius-completions": {
-            "base-url": "https://freeai.fly.dev/v1",
+            "base-url": "https://api.gptapi.us/v1/chat/completions",
             "args": {},
             "timeout": 120
         },
         "openai-chat_gptapi4o-completions": {
-            "base-url": "https://api.gptapi.us/v1/chat/completions",
+            "base-url": "https://freeai.fly.dev/v1",
             "args": {},
             "timeout": 120
         },
@@ -61,7 +60,7 @@
             "timeout": 600
         }
     },
-    "model": "gpt-4o",
+    "model": "#4o#gpt-4o",
     "prompt-mode": "normal",
     "prompt": {
         "default": ""
