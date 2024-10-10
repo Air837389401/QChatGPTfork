@@ -190,6 +190,14 @@
             "token_mgr": "openai_apius"
         },
         {
+            "model_name": "gpt-4o-2024-08-06",
+            "name": "#us#gpt-4o-2024-08-06",
+            "tool_call_supported": true,
+            "vision_supported": true,
+            "requester": "openai-chat_gptapius-completions",
+            "token_mgr": "openai_apius"
+        },
+        {
             "model_name": "gpt-3.5-turbo-0125",
             "name": "#4o#gpt-3.5-turbo-0125",
             "tool_call_supported": true,
